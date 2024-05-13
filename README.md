@@ -6,17 +6,17 @@ class Attributes():
     name = "Matteo"
     languages = ["Italian", "English"]
 
-    return name, langs
+    return name, languages
 
 
     def coding(self):
     languages = {
-        "expert" : ["js", "html", "css"]
-        "intermediate" : ["c", "c++", "python"]
+        "expert" : ["html", "css"]
+        "intermediate" : ["c", "c++", "python", "js"]
         "learning" : ["go", "c#"] 
     }
-    ide = ["vscode"]
-
+    ide = ["vscode", "visualstudio"]
+    
     return languages, ide
 
     
